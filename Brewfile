@@ -5,7 +5,6 @@ tap 'caskroom/versions'
 tap 'caskroom/fonts'
 tap 'homebrew/dupes'
 tap 'homebrew/services'
-tap 'homebrew/versions'
 
 brew 'mas-cli'
 
@@ -21,13 +20,11 @@ brew 'grep'
 
 brew 'wget'
 
-
 brew 'python3'
 
 brew 'caskroom/cask/brew-cask'
 brew 'docker' , args: ["with-experimental"]
 brew 'git', args: ["with-curl","with-openssl"]
-
 
 brew 'ansible'
 
@@ -41,13 +38,13 @@ brew 'syncthing-inotify'
 brew 'ssh-copy-id'
 
 #Override Mac osx comandline tools
-#brew install perl
-#brew install python
-brew install rsync
-brew install unzip
-brew install less
-brew install make
-brew install nano
+#brew  perl
+#brew  python
+brew 'rsync'
+brew 'unzip'
+brew 'less'
+brew 'make'
+brew 'nano'
 
 cask "java" unless system "/usr/libexec/java_home --failfast"
 
