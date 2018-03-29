@@ -3,10 +3,9 @@ cask_args appdir: "/Applications"
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'caskroom/fonts'
-tap 'homebrew/dupes'
 tap 'homebrew/services'
 
-brew 'mas-cli'
+brew 'mas'
 
 #kegonly: need to check linking /path
 
