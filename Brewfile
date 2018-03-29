@@ -21,7 +21,6 @@ brew 'wget'
 
 brew 'python3'
 
-brew 'caskroom/cask/brew-cask'
 brew 'docker' , args: ["with-experimental"]
 brew 'git', args: ["with-curl","with-openssl"]
 
